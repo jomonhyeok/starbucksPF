@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script><!--jquery cdn-->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> <!--bxslider cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <!--Semantic UI-->
+    <link rel="stylesheet" href="css/import.css"><!--공통css-->
+    <link rel="stylesheet" href="css/bxslider.css"> <!--bxslider css-->
+    <script src="js/starbucks.js"></script>
+</head>
+<body>
+    <div>
+        <i class="angle double up icon" style="font-size: 2em"></i>
+        <span>TOP</span>
+    </div>
+    <header>
+        <!-- <div class="progressBar">
+            <div class="innerbar"></div>
+        </div> -->
+        <nav>
+            <h1><img src="img/mainlogo.png" alt="mainlogo"></h1>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul>
+                <li>
+                    <h2><a href="#COMPANY">COMPANY</a><i class="angle down icon"></i></h2>
+                    <ol>
+                        <li>
+                            <h3><a href="#">소개</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="#">가치</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="#">세계의 스타벅스</a></h3>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <h2><a href="#MENU">MENU</a><i class="angle down icon"></i></h2>
+                    <ol>
+                        <li>
+                            <h3><a href="#">DRINKS</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="#">FOOD</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="#">GOODS</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="#">GIFT-CARD</a></h3>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <h2><a href="#RESERVE">RESERVE</a><i class="angle down icon"></i></h2>
+                    <ol>
+                        <li>
+                            <h3><a href="#">STORY</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="#">RESERVE MENU</a></h3>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <h2><a href="#NEWS">NEWS</a><i class="angle down icon"></i></h2>
+                    <ol>
+                        <li>
+                            <h3><a href="#">국내 뉴스룸</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="#">글로벌 뉴스룸</a></h3>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <h2><a href="#RECRUIT">RECRUIT</a><i class="angle down icon"></i></h2>
+                    <ol>
+                        <li>
+                            <h3><a href="#">채용 소개</a></h3>
+                        </li>
+                        <li>
+                            <h3><a href="#">채용 지원하기</a></h3>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </nav>
+        <div class="slider">
+            <div class="header_bg">
+                <div style="padding: 100px 0px 0 300px;">
+                    <h2>“커피 이상의 특별한 경험을 소개합니다.”</h2>
+                    <p>스타벅스는 일상을 풍요롭게 하는 제3의 공간으로서 <br/>
+                        국내의 지역사회 속에서 고객과 함께하며 새로운 커피문화를 정착시키고 있습니다.</p>
+                </div>
+                <img src="img/headbg01.png" alt="headbackground">
+            </div>
+            <div class="header_bg">
+                <div style="padding: 100px 0px 100px 300px;">
+                    <h2>
+                        "스타벅스커피 코리아는 이대앞 1호점을 시작으로 모든 매장을 직영하며,<br>
+                        하루 평균 30만명 이상의 고객들에게 특별한 스타벅스 경험을 전달하며<br>
+                        업계를 선도하는 기업으로 성장해 오고 있습니다."
+                    </h2>
+                </div>
+                <img src="img/headbg02.png" alt="headbackground">
+            </div>
+            <div class="header_bg">
+                <div style="padding: 100px 0 0 500px;">
+                    <h2>
+                        "스타벅스는 국내에 새로운 커피 문화를 소개하며, <br>
+                        지역사회를 배려하는 사회적 책임과 성장을 함께 추구하고 있습니다."
+                    </h2>
+                </div>
+                <img src="img/headbg03.png" alt="headbackground">
+            </div>
+            <div class="header_bg">
+                <div style="padding: 100px 0px 0 300px;">
+                    <h2>“지역사회와 커피 지식을 나누고 있습니다.”</h2>
+                    <p>
+                        스타벅스는 모든 직원을 파트너로 존중하고 있으며,<br>
+                        숙련된 바리스타들은 뛰어난 지식과 열정을 통해
+                        최고의 서비스를 제공해 드리고 있습니다.<br>
+                    </p>
+                </div>
+                <img src="img/headbg04.jpg" alt="headbackground">
+            </div>
+        </div>
+    </header>
+    <section id="COMPANY" class="company">
+        <h3>OUR VALUE</h3>
+        <span>우리의 핵심을 지켜나가며 파트너와 커피, 고객과 함께하는 가치들을 실행한다.</span>
+        <ul>
+            <li>
+                <figure>
+                    <figcaption>
+                        <p>모두가 환영 받을 수 있는<br/> 따뜻하고 친밀한 문화를 만든다</p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <figcaption>
+                        <p>현재로부터 투명성과<br/> 품위와 존경을<br/> 상호 연결해 나간다.</p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <figcaption>
+                        <p>우리가 할 수 있는 모든 것에 <br/>최선을 다하며, 결과를 얻기 위해 <br/>스스로 책임감을 가진다.</p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <figcaption>
+                        <p>용기를 가지고 행동하고, <br/>회사와 서로가 성장할 수 있는<br/> 새로운 방법을 찾는다.</p>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+    <section id="MENU" class="menu">
+        <h3>MENU</h3>
+        <hr>
+        <ul>
+            <li class="menuActive">
+                <h4>DRINKS</h4>
+            </li>
+            <li>
+                <h4>FOOD</h4>
+            </li>
+            <li>
+                <h4>GOODS</h4>
+            </li>
+            <li>
+                <h4>GIFT-CARD</h4>
+            </li>
+        </ul>
+        <ol>
+            <li class="tableActive">
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/drinks01.jpg" alt="drinks"></a>
+                        <p>화이트 타이거 프라푸치노</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/drinks02.jpg" alt="drinks"></a>
+                        <p> 딸기 요거트 블렌디드</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/drinks03.jpg" alt="drinks"></a>
+                        <p>그랜마 애플 블랙 티</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/drinks04.jpg" alt="drinks"></a>
+                        <p>아이스 자몽 허니 블랙 티</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/drinks05.jpg" alt="drinks"></a>
+                        <p>아이스 돌체 블랙 밀크 티</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/drinks06.jpg" alt="drinks"></a>
+                        <p>바닐라 크림 콜드 브루</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/food01.jpg" alt="food"></a>
+                        <p>상큼한 블루베리 머핀</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/food02.jpg" alt="food"></a>
+                        <p> 스모크드 소시지 브레드</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/food03.jpg" alt="food"></a>
+                        <p>레드벨벳 크림치즈 케이크</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/food04.jpg" alt="food"></a>
+                        <p>블루베리 쿠키 치즈 케이크</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/food05.jpg" alt="food"></a>
+                        <p>클라우드 초콜릿 케이크</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/food06.jpg" alt="food"></a>
+                        <p>쉬림프 & 아보카도 샌드위치</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/product01.jpg" alt="product"></a>
+                        <p>스타벅스 1호점 핸들 글라스 502ml</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/product02.jpg" alt="product"></a>
+                        <p>스타벅스 1호점 머그 400ml</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/product03.jpg" alt="product"></a>
+                        <p>청담스타 블랙 머그 237ml</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/product04.jpg" alt="product"></a>
+                        <p>바닷속 DW 글리터 글라스 콜드컵 591ml</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/product05.jpg" alt="product"></a>
+                        <p>제주 수국 에코컵 세트</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/product06.jpg" alt="product"></a>
+                        <p>스타벅스 트래블 스티커</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/card01.png" alt="card"></a>
+                        <p>스타벅스 Thank You 카드</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/card02.png" alt="card"></a>
+                        <p>2020 밸런타인 데이 카드</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/card03.png" alt="card"></a>
+                        <p>스타벅스 2020 카드</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/card04.png" alt="card"></a>
+                        <p>2019 퍼레이드 카드_네이비</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/card05.png" alt="card"></a>
+                        <p>스타벅스 Love 카드</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/card06.png" alt="card"></a>
+                        <p>리저브 스페셜 카드</p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+    <section id="RESERVE" class="reserve">
+        <div>
+            <div class="container">
+                <button class="close">CLOSE</button>
+                <div class="wrapper">
+                    <div class="cover">
+                        <div class="front">
+                            <img src="img/reserveLogo.png" alt="reserveLogo">
+                            <h3>STARBUCKS RESERVE</h3>
+                            <hr><hr>
+                            <p>차별화된 최상의 커피 경험</p>
+                            <p>VIEW THE MENU →</p>
+                        </div>
+                        <div class="back backface">
+                            <h3><img src="img/reserve_inner_left02.png" alt="reserve_inner"></h3>
+                            <p>다양한 추출 방식으로 즐길 수 있습니다.<br>
+                                추출방식에 따라 색다른 리저브로<br> 여러분의 커피 경험을 완성해보세요.</p>
+                            <img src="img/reserve_inner_left01.png" alt="reserve_inner">
+                            <p>리저브 전용매장에서는 리저브 추출방식을 <br>6가지 중에서 직접 선택하여 즐길 수 있습니다.
+                                <br>추출 방식에 따라 색다른 리저브를 즐겨보세요.</p>
+                        </div>
+                    </div>
+                    <div class="middle">
+                        <div class="inner">
+                            <ul>
+                                <li>
+                                    <img src="img/reserve_coffee01.png" alt="reserve_coffee">
+                                    <h4>에티오피아 예가체프 첼렐렉투</h4>
+                                    <p>Sun-Dried Ethiopia Yirgacheffe Chelelektu</p>
+                                    <p>꽃 및 열대 특유의 향기와 레드베리 풍미</p>
+                                </li>
+                                <li>
+                                    <img src="img/reserve_coffee02.png" alt="reserve_coffee">
+                                    <h4>엘살바도르 라 팔마</h4>
+                                    <p>El Salvador La Palma</p>
+                                    <p>산뜻한 히비스커스와 달콤한 라스베리</p>
+                                </li>
+                                <li>
+                                    <img src="img/reserve_coffee03.png" alt="reserve_coffee">
+                                    <h4>볼리비아 솔 데 라 마냐나</h4>
+                                    <p>Bolivia Sol de la Manana</p>
+                                    <p>화사한 꽃 향기 속 돋보이는 달콤한 귤</p>
+                                </li>
+                                <li>
+                                    <img src="img/reserve_coffee04.png" alt="reserve_coffee">
+                                    <h4>파푸아 뉴기니 키가바 에스테이트</h4>
+                                    <p>Papua New Guinea Kigabah Estate</p>
+                                    <p>매콤한 그린 허브에 알싸한 캐러멜이 강조되는 풍미</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="front">
+    
+                        </div>
+                        <div class="back">
+                            <ul>
+                                <li>
+                                    <img src="img/reserve_coffee05.png" alt="reserve_coffee">
+                                    <h4>니카라과 디필토</h4>
+                                    <p>Nicaragua Dipilto</p>
+                                    <p>꽃 향기 및 레몬 풍미에 더해진 초콜릿의 느낌</p>
+                                </li>
+                                <li>
+                                    <img src="img/reserve_coffee06.png" alt="reserve_coffee">
+                                    <h4>코스타리카 라스 로마스 이니셔티브</h4>
+                                    <p>Costa Rica Las Lomas Initiative</p>
+                                    <p>향긋한 사과, 캐러멜의 달콤한 초콜릿</p>
+                                </li>
+                                <li>
+                                    <img src="img/reserve_coffee07.png" alt="reserve_coffee">
+                                    <h4>과테말라 치키물라 & 자카파 밸리스</h4>
+                                    <p>Guatemala Chiquimula & Zacapa Valleys</p>
+                                    <p>스모키하게 볶은 헤이즐넛 풍미</p>
+                                </li>
+                                <li>
+                                    <img src="img/reserve_coffee08.png" alt="reserve_coffee">
+                                    <h4>레인샤인 블렌드 카욘 마운틴 팜</h4>
+                                    <p>RAINSHINE BLEND Kayon Mountain Farm</p>
+                                    <p>은은한 라벤더 향과 시트러스</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="NEWS" class="news">
+        <div>
+            <h3>STARBUCKS NEWSROOM</h3>
+            <input type="button" value="more">
+        </div>
+        <ul>
+            <li>
+                <a href="">
+                    <dl>
+                        <dt>원산지, 로스팅, 카페인따라 원두 선택하는 홈카페족 증가</dt>
+                        <dd>
+                            원두와 비아, 올해 1월부터 4월까지 작년 동기간 대비 20% 이상 판매 증가<br/>
+                            홈카페 열풍 속 수마트라, 에티오피아 등 단일 원산지 커피 판매율도 급성장...
+                            <span>2020-05-14</span>
+                        </dd>
+                    </dl>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <dl>
+                        <dt>스타벅스, 고객이 직접 새활용하는 '그린홈 만들기 프로젝트' 전개</dt>
+                        <dd>
+                            코로나19로 인한 일회용품 증가 추세 속 일회용품 새활용 아이디어 공유<br>
+                            4월 29일부터 5월 13일까지 본인 인스타그램에 자신만의 새활용법 소개
+                            <span>2020-04-28</span>
+                        </dd>
+                    </dl>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <dl>
+                        <dt>스타벅스, 또 하나의 돌풍 일으킬 ‘코코넛 화이트 콜드 브루’ 출시</dt>
+                        <dd>
+                            스타벅스, 또 하나의 돌풍 일으킬 ‘코코넛 화이트 콜드 브루’ 출시<br>
+                            고소한 코코넛 크림 폼과 깔끔한 콜드 브루가 어우러진 새로운 콜드 브루 음료 소개
+                            <span>2020-04-14</span>
+                        </dd>
+                    </dl>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_top">
+                <ul>
+                    <li>
+                        <h3>ABOUT US</h3>
+                        <p>Veri fastidii consectetuer ius in, eum alii dicunt omnium eu. Wisi nostrud equidem ut usu. Deleniti pertinacia eu est, te his soluta quaestio pericula.</p>
+                    </li>
+                    <li>
+                        <h3>NAVIGATION</h3>
+                        <ol>
+                            <li> <a href="">About Us</a> <span></span></li>
+                            <li> <a href="">Useful Links</a> <span></span></li>
+                            <li><a href="">Term of Use</a> <span></span></li>
+                            <li> <a href="">Contact Us</a><span></span></li>
+                            <li><a href="">Privacy</a><span></span></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>NEWS LETTER</h3>
+                        <form action="#">
+                            <input type="text" placeholder="E - Mail">
+                            <input type="button" value="SEND">
+                        </form>
+                        <i class="big facebook icon"></i>
+                        <i class="big github icon"></i>
+                        <i class="big instagram icon"></i>
+                        <i class="big google plus icon"></i>
+                        <i class="big pinterest icon"></i>
+                        <i class="big medium icon"></i>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="footer_bottom">
+                <p>Copyright 2020, Design - YooCho<br/>All images have been purchased from YIY. Do not use the images in your website.</p>
+                <p>Design and coding<br> by Team Yoo</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
